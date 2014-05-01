@@ -54,6 +54,7 @@
 		 */
 		public static function removeUpdateNotice(){
 			remove_action("init", "wp_version_check");
+			remove_action("admin_notices", "update_nag", 3);
 
 			add_filter("pre_option_update_core", function(){
 				return null;
