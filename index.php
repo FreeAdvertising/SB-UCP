@@ -6,7 +6,7 @@
  * Version: 1.0
  * Author: Ryan Priebe
  * Author URI: http://wearefree.ca
- * License: WTFPL
+ * License: BSD
  */
 
 include 'usercontrol.php';
