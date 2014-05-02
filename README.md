@@ -6,7 +6,7 @@ This plugin is designed to make it as easy as possible for your clients to admin
 
 * Creates the Client Administrator user role which allows your clients to manage all content on their site but disables any installation, upgrade or code editing functions.
 * Removes all standard dashboard widgets for a customized dashboard view.  Add new custom or 3rd party dashboard widgets so your clients see only what they really need to see when they login.
-* Upgrade notices now recommend asking notifying the site administrator (Client Administrators do not have permission to upgrade any part of their website).
+* Upgrade notices now recommend asking notifying the site administrator about the new version (Client Administrators do not have permission to upgrade any part of their website).
 * Brand the login page with your own logo and colour scheme (replace images/logo.png with your own image).
 
 ## Client Administrator Role Capabilities
