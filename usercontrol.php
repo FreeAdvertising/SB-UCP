@@ -19,10 +19,6 @@
 			add_action("init", "\Free\SB_UserControl::setupClientView");
 		}
 
-		public static function display(){
-			
-		}
-
 		/**
 		 * Remove standard Wordpress Dashboard widgets
 		 * @return void
