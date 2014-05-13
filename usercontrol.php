@@ -153,13 +153,11 @@
 				"manage_links" => true,
 				"manage_options" => true,
 				"moderate_comments" => true,
-				"promote_users" => true,
 				"publish_pages" => true,
 				"publish_posts" => true,
 				"read_private_pages" => true,
 				"read_private_posts" => true,
 				"read" => true,
-				"remove_users" => true,
 				"upload_files" => true,
 			);
 
