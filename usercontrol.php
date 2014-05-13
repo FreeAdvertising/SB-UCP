@@ -50,7 +50,7 @@
 
 			add_action("init", "\Free\SB_UserControl::removeUpdateNotice");
 			add_action("wp_dashboard_setup", "\Free\SB_UserControl::removeMetaBoxes");
-			add_action("login_enqueue_scripts", "\Free\SB_UserControl::addFreeBrandedLogin");
+			add_action("login_enqueue_scripts", "\Free\SB_UserControl::brandLoginScreen");
 			add_action("init", "\Free\SB_UserControl::setupClientView");
 		}
 
@@ -97,7 +97,7 @@
 		 * want to do something TOTALLY CRAZY
 		 * @return void
 		 */
-		public static function addFreeBrandedLogin(){
+		public static function brandLoginScreen(){
 			echo '
 				<style type="text/css">
 					.login h1 a {
