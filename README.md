@@ -37,6 +37,8 @@ The following table shows you how the Client Administrator role differs from the
 |manage_network_plugins|**false**|true|
 |manage_network_themes|**false**|true|
 |manage_network_options|**false**|true|
+|promote_users|**false**|true|
+|remove_users|**false**|true|
 |delete_others_pages|true|true|
 |delete_others_posts|true|true|
 |delete_pages|true|true|
@@ -61,11 +63,9 @@ The following table shows you how the Client Administrator role differs from the
 |manage_links|true|true|
 |manage_options|true|true|
 |moderate_comments|true|true|
-|promote_users|true|true|
 |publish_pages|true|true|
 |publish_posts|true|true|
 |read_private_pages|true|true|
 |read_private_posts|true|true|
 |read|true|true|
-|remove_users|true|true|
 |upload_files|true|true|
