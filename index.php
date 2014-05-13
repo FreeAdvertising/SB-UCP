@@ -2,9 +2,9 @@
 /**
  * Plugin Name: Super Badass UCP
  * Plugin URI: http://wearefree.ca
- * Description: Super badass user-group/level based controls to WP's backend
+ * Description: User-group/level based controls for WP's backend
  * Version: 1.0
- * Author: Ryan Priebe
+ * Author: Free Advertising
  * Author URI: http://wearefree.ca
  * License: BSD
  */
