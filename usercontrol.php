@@ -100,6 +100,10 @@
 		public static function brandLoginScreen(){
 			echo '
 				<style type="text/css">
+					body.login {
+						background-color: white;
+					}
+					
 					.login h1 a {
 						background-image: url("wp-content/plugins/sb-ucp/images/logo.png");
 						background-size: auto;
