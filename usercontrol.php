@@ -165,7 +165,34 @@
 				"upload_files" => true,
 			);
 
-			$client_role = add_role("client_admin", "Client Administrator", $capabilities);
+			try {
+				$client_role = add_role("client_admin", "Client Administrator", $capabilities);
+
+				if(false === is_null($client_role)){
+					self::_createUser();
+				}else {
+					throw new Exception("Role could not be created, default client_admin user creation skipped.");
+				}
+			}catch(Exception $e){
+				echo $e->getMessage();
+			}
+		}
+
+		/**
+		 * Create a new user with the newly created client_admin role
+		 * @return mixed  (false|object) Returns new user object if successful
+		 */
+		public static function _createUser(){
+			if(($exists = username_exists("clientadmin")) === false){
+				$id = wp_create_user("clientadmin", "test123!", "sbucp+user@example.com");
+
+				$newUser = new WP_User($id);
+				$newUser->setRole("client_admin");
+
+				return $newUser;
+			}
+
+			return false;
 		}
 	}
 
