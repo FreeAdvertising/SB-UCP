@@ -171,9 +171,9 @@
 				if(false === is_null($client_role)){
 					self::_createUser();
 				}else {
-					throw new Exception("Role could not be created, default client_admin user creation skipped.");
+					throw new \Exception("Role could not be created, default client_admin user creation skipped.");
 				}
-			}catch(Exception $e){
+			}catch(\Exception $e){
 				echo $e->getMessage();
 			}
 		}
