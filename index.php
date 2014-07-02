@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Super Badass UCP
- * Plugin URI: http://wearefree.ca
+ * Plugin URI: https://github.com/FreeAdvertising/SB-UCP
  * Description: User-group/level based controls for WP's backend
  * Version: 1.0.0
  * Author: Free Advertising
